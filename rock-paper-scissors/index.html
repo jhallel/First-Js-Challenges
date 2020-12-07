@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    ROCK
-    PAPER
-    SCISSORS
-    Score
-    0
-    Rules
-    You picked
-    You win
-    Play again
-    The House Picked
+    <header>
+      <h1>
+        <span>ROCK</span>
+        <span>PAPER</span>
+        <span>SCISSORS</span>
+      </h1>
+      <div class="score_block">
+        <h3>Score</h3>
+        <p id="score">0</p>
+      </div>
+    </header>
+
+    <main>
+      <button class="btn-game"><img src="./assets/images/icon-paper.svg" alt="Paper"></button>
+      <button class="btn-game"><img src="./assets/images/icon-scissors.svg" alt="Scissors"></button>
+      <button class="btn-game"><img src="./assets/images/icon-rock.svg" alt="Rock"></button>
+      <img class="bg-triangle" src="./assets/images/bg-triangle.svg">
+    </main>
+
+    <button class="btn-rules">Rules</button>
+
+    <!-- You picked You win Play again The House Picked -->
   </body>
 </html>
